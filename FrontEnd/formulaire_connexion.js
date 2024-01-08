@@ -49,7 +49,11 @@ formulaireConnexion.addEventListener("submit", function (event) {
         window.location.href = "index.html";
         window.location.reload(true);
       } else {
-        alert("Erreur dans l’identifiant ou le mot de passe");
+        const MsgErrorConnexion = document.getElementById("msg-error-connexion");
+        MsgErrorConnexion.innerText="Erreur dans l’identifiant ou le mot de passe !"
+        MsgErrorConnexion.style.display = "block";
+
+        // alert("Erreur dans l’identifiant ou le mot de passe");
       }
     });
 });
