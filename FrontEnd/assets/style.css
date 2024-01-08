@@ -342,6 +342,12 @@ footer nav ul {
   outline: none;
 }
 
+.dialog_login form #msg-error-connexion{
+  margin-top: 20px;
+  font-size: 22px;
+   color: red;
+}
+
 .dialog_login form button {
   font-size: 150%;
   background-color: #1d6154;
